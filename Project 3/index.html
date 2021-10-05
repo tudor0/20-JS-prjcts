@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://www.google.com/s2/favicons?domain=css-tricks.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>Picture in picture</title>
+  </head>
+  <body>
+    <!-- Video -->
+    <video id="video" controls height="360px" width="640px" hidden></video>
+    <!-- Button -->
+    <div class="button-container">
+      <button id="mediaSource">
+        <i
+          class="bi bi-plus-square"
+          style="font-size: 1.5rem; color: whitesmoke"
+        ></i>
+        <p>Add Media Source</p> 
+      </button>
+      <button id="button">
+        <i
+          class="bi bi-arrow-up-square"
+          style="font-size: 1.5rem; color: whitesmoke"
+        ></i
+        ><p>Start </p> 
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
